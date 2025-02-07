@@ -4,7 +4,7 @@
             <h1 class="typewriter" data-text="&lt;Lidia Holgado Romero/&gt;"> </h1>
             <h2 class="typewriter-placeholder color-h3" data-text="Web Developer"></h2>
             <div class="rrss">
-              <a href="#"  @click="downloadCV" class="download-button hidden"> Descargar CV</a>
+              <a href="/CV/LIDIA HOLGADO ROMERO CV.pdf" class="download-button hidden" target="_blank"> Descargar CV</a>
               <a href="https://github.com/LidiaHolgado" target="_blank"><img src="../../assets/icons/rrss/icons8-github.svg" alt="Github" class="hidden"></a>
               <a href="https://www.linkedin.com/in/lidiaholgadoromero/" target="_blank"><img src="../../assets/icons/rrss/icons8-linkedin.svg" alt="Linkedin" class="hidden"></a>
             </div>
@@ -59,16 +59,7 @@ export default {
     }
     typeWriterEffect();
   },
-  methods: {
-  downloadCV() {
-    const link = document.createElement("a");
-    link.href = "/cv/LIDIA_HOLGADO_ROMERO_CV.pdf";
-    link.setAttribute("download", "LIDIA_HOLGADO_ROMERO_CV.pdf");
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  }
-}
+
 }
 </script>
 
