@@ -41,6 +41,11 @@
     import 'vue3-carousel/carousel.css';
     import { Carousel, Slide, Navigation } from 'vue3-carousel';
     import ProjectBox from '../ProjectBox.vue';
+
+    import img1 from '@/assets/ProjectsImg/1.webp';
+    import img2 from '@/assets/ProjectsImg/2.webp';
+    import img3 from '@/assets/ProjectsImg/3.webp';
+
     export default {
         name: 'FourthSection',
         components: {
@@ -68,19 +73,19 @@
                 },
                 projects:[
                         {
-                            bgImage: 'https://i.gyazo.com/17b4027e9466ade665c13ec60fa8a879.jpg',
+                            bgImage: img1,
                             title: 'GameMaster',
                             text: 'Web de trabajo de fin de grado realizada en React.js y Vite.js con conexió a la API de Juegos, además de tener un backend en php y una base de datos en MySQL.',
                             link: 'https://lidiaholgado.github.io/gamemaster'
                         },
                         {
-                            bgImage: 'https://i.postimg.cc/pdwHPTHq/IMG2.png',
+                            bgImage: img2,
                             title: 'World Notes',
                             text: 'Script realizado en Lua para servidores de FiveM añadiendo nuevas funcionalidades para servidores de rol, realizado con el Lenguaje Lua además de HTML, CSS y JavaScript, aplicando una base de datos MySQL.',
                             link: 'https://forum.cfx.re/t/ox-world-notes-leave-around-notes-shared-within-all-players/5245557?u=lilytz'
                         },
                         {
-                            bgImage: 'https://i.gyazo.com/efbf023e7ce89b05ce8ea6e1ca700546.png',
+                            bgImage: img3,
                             title: 'Cable Robbery',
                             text: 'Script realizado en Lua para servidores de FiveM añadiendo nuevas funcionalidades y mejoras, realizado con el Lenguaje Lua además de HTML, CSS y JavaScript, aplicando una base de datos MySQL.',
                             link: 'https://forum.cfx.re/t/cable-robbery-fivem-script-ox-qbcore-esx/5249747?u=lilytz'

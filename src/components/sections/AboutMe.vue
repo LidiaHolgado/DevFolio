@@ -1,7 +1,7 @@
 <template>
     <div class="group-description" id="AboutMe">
             <div class="group-left">
-                <img ref="groupLeft" src="../../assets/aboutmeImg.jpg" alt="">  
+                <img ref="groupLeft" src="../../assets/aboutmeImg.webp" alt="Imagen About Me">  
             </div>
             <div class="group-right">
                 <div class="group-up" ref="groupUp">
@@ -9,7 +9,7 @@
                 </div>
                 <div class="group-down" ref="groupDown">
                     <div class="group-down-text">
-                        <p>Soy Lidia Holgado Romero, tengo 26 años y actualmente he terminado el Grado Superior de Desarrollo de Aplicaciones Web en Medac Sevilla, con el propósito de consolidar mi carrera como desarrolladora web.</p>
+                        <p>Soy Lidia Holgado Romero, actualmente he terminado el Grado Superior de Desarrollo de Aplicaciones Web en Medac Sevilla, con el propósito de consolidar mi carrera como desarrolladora web.</p>
                         <p>Cuento con una titulación previa como Técnico Superior en Animaciones 3D, Juegos y Entornos Interactivos, lo que ha proporcionado una base sólida para mi formación. Además, he complementado mi aprendizaje con diversos cursos autodidactas a través de plataformas como Udemy, OpenBootCamp y OpenWebinars.</p>
                         <p>Soy una persona apasionada por la informática, con un enfoque específico en el desarrollo web. Mi motivación principal es alcanzar metas y objetivos profesionales que me permitan crecer y desarrollarme en este campo.</p>
                         <p>Mi interés y entusiasmo se centran especialmente en el ámbito de la web development, donde aspiro a aplicar mis habilidades y conocimientos de manera creativa. Estoy ansiosa por encontrar oportunidades laborales que me permitan contribuir al mundo digital y seguir evolucionando en mi carrera profesional.</p>

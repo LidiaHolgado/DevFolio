@@ -2,7 +2,7 @@
     <div class="group" id="Intro">
         <div class="group-left">
             <h1 class="typewriter" data-text="&lt;Lidia Holgado Romero/&gt;"> </h1>
-            <h3 class="typewriter-placeholder color-h3" data-text="Web Developer"></h3>
+            <h2 class="typewriter-placeholder color-h3" data-text="Web Developer"></h2>
             <div class="rrss">
               <a href="#"  @click="downloadCV" class="download-button hidden"> Descargar CV</a>
               <a href="https://github.com/LidiaHolgado" target="_blank"><img src="../../assets/icons/rrss/icons8-github.svg" alt="Github" class="hidden"></a>
@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="group-right">
-            <img  src="../../assets/imgperfil.png" class="animate__animated animate__fadeIn animate_slower animate__delay-1s" >
+            <img  src="../../assets/imgperfil.webp" class="animate__animated animate__fadeIn animate_slower animate__delay-1s" alt="Imagen Perfil">
         </div>
     </div>
 </template>
@@ -93,7 +93,7 @@ export default {
             padding-left: 20%;
         }
     
-        h3{
+        h2{
             font-size: 2dvw;
             margin: 0;
             padding-left: 20%;
