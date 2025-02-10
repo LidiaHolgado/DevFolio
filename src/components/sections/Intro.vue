@@ -197,7 +197,7 @@ export default {
       padding-left: 0;
       font-size: 8vw;
     }
-    h3{
+    h2{
       padding-left: 0;
       font-size: 6vw;
     }
